@@ -1,0 +1,45 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Документ без названия</title>
+<link href="Style.css" rel="stylesheet" type="text/css">
+	<link href="css/header-1.scss" rel="stylesheet" type="text/css">
+	    <link rel="stylesheet" href="css/reset.min.css" />
+    <link rel="stylesheet" href="css/style2.css" />
+</head>
+
+<body>
+	<header class="site-header">
+ <div class="wrapper site-header__wrapper">
+ <a href=" " class="brand">Brand</a>
+ <nav class="nav">
+ <button class="nav__toggle" aria-expanded="false" type="button">
+ menu
+ </button>
+ <ul class="nav__wrapper">
+ <li class="nav__item"><a href="#">Home</a></li>
+ <li class="nav__item"><a href="#">About</a></li>
+ <li class="nav__item"><a href="#">Services</a></li>
+ <li class="nav__item"><a href="#">Hire us</a></li>
+ <li class="nav__item"><a href="#">Contact</a></li>
+ </ul>
+ </nav>
+ </div>
+		<script>let navToggle = document.querySelector(".nav__toggle");
+let navWrapper = document.querySelector(".nav__wrapper");
+
+navToggle.addEventListener("click", function () {
+  if (navWrapper.classList.contains("active")) {
+    this.setAttribute("aria-expanded", "false");
+    this.setAttribute("aria-label", "menu");
+    navWrapper.classList.remove("active");
+  } else {
+    navWrapper.classList.add("active");
+    this.setAttribute("aria-label", "close menu");
+    this.setAttribute("aria-expanded", "true");
+  }
+});</script>
+</header>
+</body>
+</html>
