@@ -6,7 +6,7 @@
     font-weight: bold;
     font-size: 20px;
     text-emphasis-color: #FFFFFF;
-    color: #FFFFFF;
+    color:#48d1cc;
 }
 
 .site-header {
@@ -26,7 +26,9 @@
       padding-bottom: 0; } }
 @media (min-width: 600px) {
   .nav__wrapper {
-    display: flex; } }
+    display: flex;
+    color: #00FFC1;
+} }
 
 @media (max-width: 599px) {
   .nav__wrapper {
@@ -48,7 +50,7 @@
     display: block;
     padding: 1.5rem 1rem;
     text-color: #FFFFFF;
-    color: #FFFFFF;
+    color: #48d1cc;
 }
 
 .nav__toggle {
@@ -62,4 +64,8 @@
 
 .service_section {
 	background-color:#E4E4E4;
+}
+
+.nav__item {
+	color: #48d1cc;
 }

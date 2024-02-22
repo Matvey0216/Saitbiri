@@ -44,7 +44,7 @@ position: absolute;
 }
 
 .manual-btn{
-    border: 2px solid mediumaquamarine;
+    border: 2px solid #48d1cc;
     padding: 5px;
     border-radius: 10px;
     cursor: pointer;
@@ -56,7 +56,7 @@ position: absolute;
 }
 
 .manual-btn:hover{
-    background: mediumaquamarine;
+    background: #48d1cc;
 }
 
 #radio1:checked ~ .first{
@@ -85,7 +85,7 @@ position: absolute;
     margin-top: 460px;
 }
 .navigation-auto div{
-    border: 2px solid mediumaquamarine;
+    border: 2px solid #48d1cc;
     padding: 5px;
     border-radius: 10px;
     transition: 1s;
@@ -96,19 +96,19 @@ position: absolute;
 }
 
 #radio1:checked ~ .navigation-auto .auto-btn1{
-    background: mediumaquamarine;
+    background: #48d1cc;
 }
 
 #radio2:checked ~ .navigation-auto .auto-btn2{
-    background: mediumaquamarine;
+    background: #48d1cc;
 }
 
 #radio3:checked ~ .navigation-auto .auto-btn3{
-    background: mediumaquamarine;
+    background: #48d1cc;
 }
 
 #radio4:checked ~ .navigation-auto .auto-btn4{
-    background: mediumaquamarine;
+    background: #48d1cc;
 }
 
 /*Uslugi*/
@@ -170,7 +170,7 @@ transition: all 0.5s ease;
 }
 /*==FAQs=============================*/
 #faq{
-    background: #F6E9FF;
+    background: #E4E4E4;
     padding: 84px 0px 144px 134px;
     display: flex;
     flex-direction: column;
@@ -188,9 +188,9 @@ margin-bottom: 24px;
     font-weight: 700;
     font-size: 45.25px;
     line-height: 57px;
-    color: #366785;
+    color: #48d1cc;
     text-transform: uppercase;
-    text-align: left;
+    text-align: center;
 }
 .faq-heading p{
 font-weight: 400;
@@ -207,7 +207,7 @@ align-items: flex-start;
 }
 .faq-box{
 padding: 35px;
-background: rgba(255, 255, 255, 0.4);
+background: #363636;
 border: 1px solid #FFFFFF;
 box-shadow: 14px 14px 60px rgba(59, 42, 130, 0.06);
 border-radius: 25px;
@@ -231,7 +231,7 @@ user-select: none;
 font-weight: 700;
 font-size: 22.625px;
 line-height: 31px;
-color: #3B2A82;
+color: #48d1cc;
 }
 .faq-box-answer{
 max-height: 0px;
@@ -271,7 +271,7 @@ margin-left: auto;
 }
 .faq-box-icon::before,
 .faq-box-icon::after{
-background: #382B7D;
+background: #48d1cc;
 content: '';
 position: absolute;
 height: 100%;

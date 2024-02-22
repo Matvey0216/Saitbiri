@@ -446,6 +446,7 @@ a:focus {
 
 .service_section .service_container .box .img-box {
   width: 85px;
+  background-color:;
 }
 
 .service_section .service_container .box .img-box img {
@@ -496,7 +497,7 @@ a:focus {
 }
 
 .about_section .detail-box {
-  padding: 50px 15px 50px 35px;
+  padding: 50px 15px 60px 35px;
   background-color: #fefdfc;
   -webkit-clip-path: polygon(0 10%, 100% 0%, 100% 100%, 0 76%);
           clip-path: polygon(0 10%, 100% 0%, 100% 100%, 0 76%);
@@ -507,10 +508,13 @@ a:focus {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+	font-size: 18px; 
 }
 
 .about_section .detail-box h2 {
-  text-transform: uppercase;
+    text-transform: uppercase;
+    font-size: x-large;
+    font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
 .about_section .detail-box p {

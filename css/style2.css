@@ -5,6 +5,7 @@
   padding-right: 1rem;
   margin-left: auto;
   margin-right: auto;
+	color: #48d1cc;
 }
 
 *,
@@ -70,4 +71,8 @@ body {
 .button--icon {
   min-width: initial;
   padding: 0.5rem;
+}
+
+.onasknopka {
+	color: #48d1cc;
 }

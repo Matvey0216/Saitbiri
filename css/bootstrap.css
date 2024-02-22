@@ -169,7 +169,9 @@ a:not([href]):not([tabindex]):hover, a:not([href]):not([tabindex]):focus {
 }
 
 a:not([href]):not([tabindex]):focus {
-  outline: 0;
+    outline: 0;
+    color: mediumaquamarine;
+    background-color: mediumaquamarine;
 }
 
 pre,
@@ -4054,6 +4056,7 @@ input[type="button"].btn-block {
   padding-left: 0;
   margin-bottom: 0;
   list-style: none;
+	color: mediumaquamarine;
 }
 
 .nav-link {
@@ -5664,4 +5667,3 @@ button.close {
 a.close.disabled {
   pointer-events: none;
 }
-
